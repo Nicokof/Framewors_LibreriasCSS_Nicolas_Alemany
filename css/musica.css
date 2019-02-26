@@ -1,0 +1,78 @@
+body{
+  background: #FF4000;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.img-logo{
+  float: left;
+  width: 20%;
+}
+.img-social{
+  width: 30%;
+  float: right;
+  padding-bottom: 10px;
+}
+.cabecera{
+  height: auto;
+}
+.logo, .redes{
+  background: #6E6E6E;
+  height: 150px;
+}
+.redes{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.barra_nav{
+  background: #D8D8D8;
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  border-radius: 0 0 5px 5px;
+}
+a{
+  color: black;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  color: white;
+  background: black !important;
+}
+.contenedor_not{
+  height: auto;
+  background: #6E6E6E;
+  margin-top: 10px;
+  border-radius: 5px 5px 0px 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: white;
+}
+.img_usuario1{
+  float: right;
+}
+.img_usuario2{
+  float: left;
+}
+a:hover{
+  text-decoration: none;
+}
+.lista{
+  padding-top: 20px;
+}
+@media (max-width: 770px){
+  body{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .barra_nav{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-left: 0px;
+}
+  .img_usuario1, .img_usuario2{
+    width: 32.5%;
+  }
+}

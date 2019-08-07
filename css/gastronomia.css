@@ -1,0 +1,55 @@
+body{
+  background: url(../imagenes/fondo-cocinarte.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.contenedor{
+  background-color: rgba(255,255,255,0.4);
+  padding-left: 8px;
+  padding-bottom: 8px;
+}
+.navegador{
+  background-color: rgba(99,99,99, 0.60);
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 100%;
+}
+label > i{
+  font-size: 24px;
+}
+ul{
+  list-style: none;
+}
+.columna_receta{
+  background-color: rgba(99,99,99, 0.60);
+  margin-right: 0px !important;
+  height: 100%;
+}
+.recetas{
+  background-color: rgba(99,99,99, 0.90);
+  margin-bottom: 20px;
+}
+.recetas>div{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.favoritos>div{
+  padding: 10px;
+}
+#text_coment{
+  background-color: rgba(99,99,99, 0.90);
+}
+@media (max-width: 770px){
+  .navegador{
+    display: none;
+  }
+  body{
+    margin: 10px;
+    background: black;
+  }
+  .columna_receta{
+    background-color: rgba(99,99,99, 0.01);
+  }
+}

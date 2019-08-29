@@ -52,4 +52,8 @@ ul{
   .columna_receta{
     background-color: rgba(99,99,99, 0.01);
   }
+  .contenedor{
+    background: white;
+    padding-left: 0px;
+  }
 }
